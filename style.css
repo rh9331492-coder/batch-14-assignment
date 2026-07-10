@@ -328,3 +328,53 @@ img {
 }
 
 /* chatgpt code and style end */
+
+
+.footer-section {
+    background: #111;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo-text {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-logo-text img {
+    width: 130px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.footer-logo-text strong {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-logo-text span {
+    color: #ff9800;
+}
+
+.footer-right ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-right ul li {
+    cursor: pointer;
+    text-transform: capitalize;
+    color: gray;
+    font-size: 20px;
+}
