@@ -239,3 +239,92 @@ img {
     background-color: #1f51e6;
 }
 /* price style end */
+
+.chatgpt{
+    background:url(./assets/download.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.video-box video {
+    width: 46vw;
+    height: 48vh;
+}
+
+.login-box{
+    width:300px;
+}
+
+.login-box h2{
+    margin-bottom:20px;
+}
+
+.login-box input{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+    box-shadow:
+        inset 3px 3px 8px rgba(6, 5, 5, 0.589),
+        inset -3px -3px 8px rgba(255,255,255,0.8);
+
+    transition: all .3s ease;
+}
+
+.login-btn{
+    width:100%;
+    padding:12px;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+
+.animated-btn{
+    margin-top:20px;
+    padding:14px 30px;
+    border:none;
+    background:#ff5722;
+    color:#fff;
+    font-size:18px;
+    border-radius:50px;
+    cursor:pointer;
+    animation:pulse 1.5s infinite;
+    transition:.3s;
+}
+
+.animated-btn:hover{
+    background:#e64a19;
+    transform:scale(1.08);
+}
+
+@keyframes pulse{
+    0%{
+        transform:scale(1);
+        box-shadow:0 0 0 0 rgba(255,87,34,.6);
+    }
+    70%{
+        transform:scale(1.08);
+        box-shadow:0 0 0 20px rgba(255,87,34,0);
+    }
+    100%{
+        transform:scale(1);
+        box-shadow:0 0 0 0 rgba(255,87,34,0);
+    }
+}
+
+/* chatgpt code and style end */
