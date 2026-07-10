@@ -151,3 +151,91 @@ img {
     margin-top: 10px;
 }
 /* card style end */
+
+
+.price-area{
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.price-card{
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    text-align: left;
+    border: 1px solid gray;
+}
+
+.price-card h2 {
+    color: gray;
+    font-size: 17px;
+}
+
+.price-text{
+    text-align: center;
+}
+.price {
+    font-size: 59px;
+    color: #000000;
+}
+.price-text p {
+    font-size: 17px;
+    color: gray;
+}
+
+.pro{color: #fff;}
+.doller{color: #fff; font-size: 52px;}
+
+.border-bottom{
+    border-bottom: 1px solid gray;
+}
+.price-card h1{
+    color: #222;
+    font-size: 50px;
+}
+
+.price-card h1 span{
+    font-size: 18px;
+    color: gray;
+}
+
+.price-card ul{
+    list-style: none;
+}
+
+.price-card ul li {
+    position: relative;
+    color: #555;
+    padding: 12px 15px;
+}
+
+.price-card ul li::before {
+    height: 8px;
+    width: 8px;
+    content: '';
+    background: rgb(67, 165, 221);
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: 16px;
+}
+.price-card button{
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #0c0c0c;
+    padding: 12px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+}
+.primary{
+    background-color: #0b0b0c;
+}
+.primary button{
+    background-color: #1f51e6;
+}
+/* price style end */
